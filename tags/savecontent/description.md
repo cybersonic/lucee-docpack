@@ -1,1 +1,1 @@
-{{include:description.md}}
+Saves the generated content inside the tag body in a variable.

@@ -1,1 +1,1 @@
-{{include:description.md}}
+Suppresses all output that is produced by the CFML within the tag's scope.

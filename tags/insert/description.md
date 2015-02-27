@@ -1,1 +1,1 @@
-{{include:description.md}}
+Inserts records in data sources.

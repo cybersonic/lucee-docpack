@@ -1,1 +1,1 @@
-{{include:description.md}}
+Flushes currently available data to the client.

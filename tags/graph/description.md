@@ -1,1 +1,1 @@
-{{include:description.md}}
+Displays a graphical representation of data.

@@ -1,1 +1,1 @@
-{{include:description.md}}
+Controls the JavaScript files that are imported for use on pages that use Luceex AJAX tags and features.

@@ -1,1 +1,1 @@
-{{include:description.md}}
+Lets you resize and add labels to GIF and JPEG format images.

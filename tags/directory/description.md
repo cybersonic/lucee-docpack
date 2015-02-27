@@ -1,1 +1,1 @@
-{{include:description.md}}
+Handles interactions with directories.

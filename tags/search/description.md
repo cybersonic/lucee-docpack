@@ -1,1 +1,1 @@
-{{include:description.md}}
+Executes searches against data indexed

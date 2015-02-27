@@ -1,1 +1,1 @@
-{{include:description.md}}
+Lets users implement File Transfer Protocol (FTP) operations.

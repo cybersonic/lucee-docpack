@@ -1,1 +1,1 @@
-{{include:description.md}}
+Stops processing of a request or template at the tag location.

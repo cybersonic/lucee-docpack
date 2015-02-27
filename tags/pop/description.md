@@ -1,1 +1,1 @@
-{{include:description.md}}
+Retrieves and deletes e-mail messages from a POP mail server.

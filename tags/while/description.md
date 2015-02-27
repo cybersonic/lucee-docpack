@@ -1,1 +1,1 @@
-{{include:description.md}}
+Simplification of the tag cfloop-condition, analog to the cfscript "while" loop.

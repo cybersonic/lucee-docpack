@@ -1,1 +1,1 @@
-{{include:description.md}}
+Allows you to create and administer Search collections.

@@ -1,1 +1,1 @@
-{{include:description.md}}
+Creates an HTML tag with specified contents and lets you to use bind expressions to dynamically control the tag contents.

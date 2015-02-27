@@ -1,1 +1,1 @@
-{{include:description.md}}
+Encloses a code segment containing cfscript.

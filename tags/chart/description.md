@@ -1,1 +1,1 @@
-{{include:description.md}}
+Generates and displays a chart.
