@@ -1,0 +1,45 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": false,
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "col",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "text": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_text.md}}"
+        },
+        "align": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_align.md}}"
+        },
+        "width": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_width.md}}"
+        },
+        "header": {
+            "required": true,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_header.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

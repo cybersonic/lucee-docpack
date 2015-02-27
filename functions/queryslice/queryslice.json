@@ -1,0 +1,45 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "query"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "query",
+            "type": "query",
+            "description": "{{include:argument_query.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "offset",
+            "type": "number",
+            "description": "{{include:argument_offset.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "length",
+            "type": "number",
+            "description": "{{include:argument_length.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "query",
+    "status": "implemeted",
+    "name": "queryslice",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "slice",
+        "type": "query"
+    }
+}

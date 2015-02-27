@@ -1,0 +1,48 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string",
+        "javascript"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "cfvar",
+            "type": "any",
+            "description": "{{include:argument_cfvar.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "javascriptvar",
+            "type": "string",
+            "description": "{{include:argument_javascriptvar.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "outputformat",
+            "type": "boolean",
+            "description": "{{include:argument_outputformat.md}}",
+            "defaultValue": "true"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "ASFormat",
+            "type": "boolean",
+            "description": "{{include:argument_ASFormat.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "toscript",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

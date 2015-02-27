@@ -1,0 +1,20 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "type",
+            "type": "string",
+            "description": "{{include:argument_type.md}}",
+            "defaultValue": "array"
+        }
+    ],
+    "argMin": 0,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "callstackget",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

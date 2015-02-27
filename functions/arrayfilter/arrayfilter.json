@@ -1,0 +1,54 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "array",
+        "iterator"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "array",
+            "type": "array",
+            "description": "{{include:argument_array.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "filter",
+            "type": "function",
+            "description": "{{include:argument_filter.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "parallel",
+            "type": "boolean",
+            "description": "{{include:argument_parallel.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "maxThreads",
+            "type": "number",
+            "description": "{{include:argument_maxThreads.md}}",
+            "defaultValue": "20"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "array",
+    "status": "implemeted",
+    "name": "arrayfilter",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "filter",
+        "type": "array"
+    }
+}

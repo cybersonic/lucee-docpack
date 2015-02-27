@@ -1,0 +1,70 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "insert",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "tablequalifier": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_tablequalifier.md}}"
+        },
+        "tablename": {
+            "required": true,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_tablename.md}}"
+        },
+        "tableowner": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_tableowner.md}}"
+        },
+        "formfields": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_formfields.md}}"
+        },
+        "password": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_password.md}}"
+        },
+        "datasource": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_datasource.md}}"
+        },
+        "username": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_username.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

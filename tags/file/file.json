@@ -1,0 +1,169 @@
+{
+    "bodyType": "free",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "file",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "charset": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_charset.md}}"
+        },
+        "mode": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_mode.md}}"
+        },
+        "createpath": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_createpath.md}}"
+        },
+        "source": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_source.md}}"
+        },
+        "fixnewline": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_fixnewline.md}}"
+        },
+        "variable": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_variable.md}}"
+        },
+        "filefield": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_filefield.md}}"
+        },
+        "serverpassword": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_serverpassword.md}}"
+        },
+        "output": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_output.md}}"
+        },
+        "strict": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_strict.md}}"
+        },
+        "accept": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_accept.md}}"
+        },
+        "nameconflict": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_nameconflict.md}}"
+        },
+        "storeacl": {
+            "required": false,
+            "alias": "acl",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_storeacl.md}}"
+        },
+        "file": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_file.md}}"
+        },
+        "addnewline": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_addnewline.md}}"
+        },
+        "destination": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_destination.md}}"
+        },
+        "action": {
+            "required": true,
+            "values": [
+                "info",
+                "move",
+                "rename",
+                "copy",
+                "delete",
+                "read",
+                "readbinary",
+                "write",
+                "append",
+                "upload",
+                "uploadall",
+                "touch"
+            ],
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_action.md}}"
+        },
+        "result": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_result.md}}"
+        },
+        "attributes": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_attributes.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

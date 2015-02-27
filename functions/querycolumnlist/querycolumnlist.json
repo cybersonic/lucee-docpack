@@ -1,0 +1,37 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "query"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "query",
+            "type": "query",
+            "description": "{{include:argument_query.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "delimiter",
+            "type": "string",
+            "description": "{{include:argument_delimiter.md}}",
+            "defaultValue": ","
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "querycolumnlist",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "columnList",
+        "type": "query"
+    }
+}

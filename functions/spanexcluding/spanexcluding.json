@@ -1,0 +1,37 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "set",
+            "type": "string",
+            "description": "{{include:argument_set.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "spanexcluding",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "spanExcluding",
+        "type": "string"
+    }
+}

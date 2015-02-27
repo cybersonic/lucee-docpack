@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "key",
+            "type": "string",
+            "description": "{{include:argument_key.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "cfusion_decrypt",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

@@ -1,0 +1,29 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "singletype": "required",
+        "type": "single",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "sleep",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "time": {
+            "required": true,
+            "status": "implemeted",
+            "scriptSupport": "required",
+            "type": "number",
+            "description": "{{include:attribute_time.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

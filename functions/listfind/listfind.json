@@ -1,0 +1,55 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "list",
+        "string",
+        "find"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "list",
+            "type": "string",
+            "description": "{{include:argument_list.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "value",
+            "type": "string",
+            "description": "{{include:argument_value.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "delimiters",
+            "type": "string",
+            "description": "{{include:argument_delimiters.md}}",
+            "defaultValue": ","
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "includeEmptyFields",
+            "type": "boolean",
+            "description": "{{include:argument_includeEmptyFields.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "listfind",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "listFind",
+        "type": "string"
+    }
+}

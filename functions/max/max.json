@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "number"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "number1",
+            "type": "number",
+            "description": "{{include:argument_number1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "number2",
+            "type": "number",
+            "description": "{{include:argument_number2.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "max",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

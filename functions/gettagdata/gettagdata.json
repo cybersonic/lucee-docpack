@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "nameSpaceWithSeperator",
+            "type": "string",
+            "description": "{{include:argument_nameSpaceWithSeperator.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "tagName",
+            "type": "string",
+            "description": "{{include:argument_tagName.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "struct",
+    "status": "implemeted",
+    "name": "gettagdata",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

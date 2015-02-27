@@ -1,0 +1,52 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "format",
+            "type": "string",
+            "description": "{{include:argument_format.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "source",
+            "type": "string",
+            "description": "{{include:argument_source.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "target",
+            "type": "string",
+            "description": "{{include:argument_target.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "includeBaseFolder",
+            "type": "boolean",
+            "description": "{{include:argument_includeBaseFolder.md}}",
+            "defaultValue": "true"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "mode",
+            "type": "string",
+            "description": "{{include:argument_mode.md}}",
+            "defaultValue": "777"
+        }
+    ],
+    "argMin": 3,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "compress",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

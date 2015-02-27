@@ -1,0 +1,71 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "x",
+            "type": "number",
+            "description": "{{include:argument_x.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "y",
+            "type": "number",
+            "description": "{{include:argument_y.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "width",
+            "type": "number",
+            "description": "{{include:argument_width.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "height",
+            "type": "number",
+            "description": "{{include:argument_height.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "dx",
+            "type": "number",
+            "description": "{{include:argument_dx.md}}",
+            "defaultValue": "-999"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "dy",
+            "type": "number",
+            "description": "{{include:argument_dy.md}}",
+            "defaultValue": "-999"
+        }
+    ],
+    "argMin": 5,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "imagecopy",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

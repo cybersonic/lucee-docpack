@@ -1,0 +1,175 @@
+{
+    "bodyType": "free",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "none",
+        "rtexpr": false
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "MediaPlayer",
+    "type": "cfml",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "controlbar": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_controlbar.md}}"
+        },
+        "height": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_height.md}}"
+        },
+        "hidetitle": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_hidetitle.md}}"
+        },
+        "quality": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_quality.md}}"
+        },
+        "source": {
+            "required": true,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_source.md}}"
+        },
+        "align": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_align.md}}"
+        },
+        "bgcolor": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_bgcolor.md}}"
+        },
+        "style": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_style.md}}"
+        },
+        "fullscreencontrol": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_fullscreencontrol.md}}"
+        },
+        "oncomplete": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_oncomplete.md}}"
+        },
+        "wmode": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_wmode.md}}"
+        },
+        "width": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_width.md}}"
+        },
+        "printjscontrols": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_printjscontrols.md}}"
+        },
+        "autoplay": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_autoplay.md}}"
+        },
+        "image": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_image.md}}"
+        },
+        "name": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_name.md}}"
+        },
+        "load": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_load.md}}"
+        },
+        "onload": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_onload.md}}"
+        },
+        "hideborder": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_hideborder.md}}"
+        },
+        "title": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_title.md}}"
+        },
+        "delimiter": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_delimiter.md}}"
+        },
+        "onstart": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_onstart.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

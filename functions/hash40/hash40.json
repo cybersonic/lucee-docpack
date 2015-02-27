@@ -1,0 +1,44 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "input",
+            "type": "any",
+            "description": "{{include:argument_input.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "algorithm",
+            "type": "string",
+            "description": "{{include:argument_algorithm.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "encoding",
+            "type": "string",
+            "description": "{{include:argument_encoding.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "numIterations",
+            "type": "number",
+            "description": "{{include:argument_numIterations.md}}",
+            "defaultValue": "1"
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "hash40",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

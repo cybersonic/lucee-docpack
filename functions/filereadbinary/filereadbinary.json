@@ -1,0 +1,23 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "binary"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "source",
+            "type": "any",
+            "description": "{{include:argument_source.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "filereadbinary",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

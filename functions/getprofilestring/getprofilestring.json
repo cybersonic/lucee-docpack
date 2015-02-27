@@ -1,0 +1,36 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "iniPath",
+            "type": "string",
+            "description": "{{include:argument_iniPath.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "section",
+            "type": "string",
+            "description": "{{include:argument_section.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "entry",
+            "type": "string",
+            "description": "{{include:argument_entry.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "getprofilestring",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

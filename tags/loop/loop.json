@@ -1,0 +1,191 @@
+{
+    "bodyType": "required",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "loop",
+    "type": "java",
+    "attributeCollection": false,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "condition": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_condition.md}}"
+        },
+        "item": {
+            "required": false,
+            "alias": "value",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_item.md}}"
+        },
+        "query": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_query.md}}"
+        },
+        "charset": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_charset.md}}"
+        },
+        "struct": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "struct",
+            "description": "{{include:attribute_struct.md}}"
+        },
+        "times": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_times.md}}"
+        },
+        "delimiters": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_delimiters.md}}"
+        },
+        "list": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_list.md}}"
+        },
+        "startline": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_startline.md}}"
+        },
+        "to": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_to.md}}"
+        },
+        "step": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_step.md}}"
+        },
+        "collection": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_collection.md}}"
+        },
+        "endrow": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_endrow.md}}"
+        },
+        "startrow": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_startrow.md}}"
+        },
+        "index": {
+            "required": false,
+            "alias": "key",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_index.md}}"
+        },
+        "file": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_file.md}}"
+        },
+        "maxrows": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_maxrows.md}}"
+        },
+        "groupcasesensitive": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_groupcasesensitive.md}}"
+        },
+        "from": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_from.md}}"
+        },
+        "endline": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_endline.md}}"
+        },
+        "label": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_label.md}}"
+        },
+        "characters": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_characters.md}}"
+        },
+        "array": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "array",
+            "description": "{{include:attribute_array.md}}"
+        },
+        "group": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_group.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

@@ -1,0 +1,45 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "array"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "array1",
+            "type": "array",
+            "description": "{{include:argument_array1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "array2",
+            "type": "array",
+            "description": "{{include:argument_array2.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "leaveIndex",
+            "type": "boolean",
+            "description": "{{include:argument_leaveIndex.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "array",
+    "status": "implemeted",
+    "name": "arraymerge",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "merge",
+        "type": "array"
+    }
+}

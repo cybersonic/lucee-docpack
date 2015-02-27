@@ -1,0 +1,39 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "ESAPI",
+        "CSS",
+        "DN",
+        "HTML",
+        "JavaScript",
+        "ldap",
+        "URL",
+        "VBScript",
+        "XML"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "encodeFor",
+            "type": "string",
+            "description": "{{include:argument_encodeFor.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "esapiencode",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

@@ -1,0 +1,29 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "query"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "query",
+            "type": "query",
+            "description": "{{include:argument_query.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "querycolumncount",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "columnCount",
+        "type": "query"
+    }
+}

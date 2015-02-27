@@ -1,0 +1,20 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "datasource",
+            "type": "string",
+            "description": "{{include:argument_datasource.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 0,
+    "returnType": "object",
+    "status": "implemeted",
+    "name": "ormgetsession",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

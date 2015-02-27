@@ -1,0 +1,70 @@
+{
+    "bodyType": "free",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "none",
+        "rtexpr": false
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "AjaxProxy",
+    "type": "cfml",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "jsclassname": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_jsclassname.md}}"
+        },
+        "onerror": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_onerror.md}}"
+        },
+        "onsuccess": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_onsuccess.md}}"
+        },
+        "extends": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_extends.md}}"
+        },
+        "methods": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_methods.md}}"
+        },
+        "cfc": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cfc.md}}"
+        },
+        "bind": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_bind.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

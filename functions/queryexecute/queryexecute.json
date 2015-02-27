@@ -1,0 +1,41 @@
+{
+    "argMax": 4,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "caller",
+            "type": "any",
+            "description": "{{include:argument_caller.md}}"
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "sql",
+            "type": "string",
+            "description": "{{include:argument_sql.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "params",
+            "type": "any",
+            "description": "{{include:argument_params.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "options",
+            "type": "struct",
+            "description": "{{include:argument_options.md}}"
+        }
+    ],
+    "argMin": 2,
+    "source": "/Users/markdrew/Downloads/lucee-4.5.1.000-express/lib/ext/lucee-server/context/library/function/queryExecute.cfm",
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "queryexecute",
+    "type": "cfml",
+    "description": "{{include:description.md}}",
+    "argumentType": "fixed"
+}

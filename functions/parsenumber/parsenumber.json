@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "nummber",
+            "type": "string",
+            "description": "{{include:argument_nummber.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "radix",
+            "type": "string",
+            "description": "{{include:argument_radix.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "parsenumber",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

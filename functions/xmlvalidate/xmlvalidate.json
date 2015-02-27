@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "XML"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "xmlDoc",
+            "type": "string",
+            "description": "{{include:argument_xmlDoc.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "validator",
+            "type": "string",
+            "description": "{{include:argument_validator.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "struct",
+    "status": "implemeted",
+    "name": "xmlvalidate",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

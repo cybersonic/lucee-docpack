@@ -1,0 +1,55 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "x1",
+            "type": "number",
+            "description": "{{include:argument_x1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "y1",
+            "type": "number",
+            "description": "{{include:argument_y1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "x2",
+            "type": "number",
+            "description": "{{include:argument_x2.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "y2",
+            "type": "number",
+            "description": "{{include:argument_y2.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 5,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imagedrawline",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

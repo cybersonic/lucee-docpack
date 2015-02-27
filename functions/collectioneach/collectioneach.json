@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "iterator"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "collection",
+            "type": "object",
+            "description": "{{include:argument_collection.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "closure",
+            "type": "function",
+            "description": "{{include:argument_closure.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "collectioneach",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

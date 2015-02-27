@@ -1,0 +1,174 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "image",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "height": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_height.md}}"
+        },
+        "angle": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_angle.md}}"
+        },
+        "text": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_text.md}}"
+        },
+        "quality": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_quality.md}}"
+        },
+        "source": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_source.md}}"
+        },
+        "difficulty": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_difficulty.md}}"
+        },
+        "color": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_color.md}}"
+        },
+        "passthrough": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_passthrough.md}}"
+        },
+        "width": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_width.md}}"
+        },
+        "isbase64": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_isbase64.md}}"
+        },
+        "name": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_name.md}}"
+        },
+        "fonts": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_fonts.md}}"
+        },
+        "base64": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_base64.md}}"
+        },
+        "overwrite": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_overwrite.md}}"
+        },
+        "destination": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_destination.md}}"
+        },
+        "action": {
+            "required": false,
+            "values": [
+                "border",
+                "captcha",
+                "convert",
+                "writetobrowser",
+                "write",
+                "rotate",
+                "resize",
+                "read",
+                "info"
+            ],
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_action.md}}",
+            "defaultValue": "read"
+        },
+        "thickness": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_thickness.md}}"
+        },
+        "structname": {
+            "required": false,
+            "alias": "result",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_structname.md}}"
+        },
+        "format": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_format.md}}"
+        },
+        "fontsize": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_fontsize.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

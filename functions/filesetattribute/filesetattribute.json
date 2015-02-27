@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "source",
+            "type": "any",
+            "description": "{{include:argument_source.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "attribute",
+            "type": "string",
+            "description": "{{include:argument_attribute.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "filesetattribute",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

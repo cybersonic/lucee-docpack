@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "number"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "radix",
+            "type": "number",
+            "description": "{{include:argument_radix.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "inputbasen",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

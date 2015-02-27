@@ -1,0 +1,69 @@
+{
+    "argMax": 8,
+    "arguments": [
+        {
+            "required": true,
+            "status": "hidden",
+            "name": "caller",
+            "type": "struct",
+            "description": "{{include:argument_caller.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "var",
+            "type": "string",
+            "description": "{{include:argument_var.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "text",
+            "type": "string",
+            "description": "{{include:argument_text.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "type",
+            "type": "string",
+            "description": "{{include:argument_type.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "category",
+            "type": "string",
+            "description": "{{include:argument_category.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "inline",
+            "type": "boolean",
+            "description": "{{include:argument_inline.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "abort",
+            "type": "boolean",
+            "description": "{{include:argument_abort.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "follow",
+            "type": "boolean",
+            "description": "{{include:argument_follow.md}}"
+        }
+    ],
+    "argMin": 1,
+    "source": "/Users/markdrew/Downloads/lucee-4.5.1.000-express/lib/ext/lucee-server/context/library/function/trace.cfm",
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "trace",
+    "type": "cfml",
+    "description": "{{include:description.md}}",
+    "argumentType": "fixed"
+}

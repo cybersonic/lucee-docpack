@@ -1,0 +1,71 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "singletype": "optional",
+        "type": "single",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "throw",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "message": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "optional",
+            "type": "any",
+            "description": "{{include:attribute_message.md}}"
+        },
+        "detail": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_detail.md}}"
+        },
+        "errorcode": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_errorcode.md}}"
+        },
+        "type": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_type.md}}"
+        },
+        "contextlevel": {
+            "required": false,
+            "status": "hidden",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_contextlevel.md}}"
+        },
+        "object": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_object.md}}"
+        },
+        "extendedinfo": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_extendedinfo.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

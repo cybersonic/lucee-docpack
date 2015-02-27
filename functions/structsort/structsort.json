@@ -1,0 +1,54 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "struct",
+        "sort"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "base",
+            "type": "struct",
+            "description": "{{include:argument_base.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "sortType",
+            "type": "string",
+            "description": "{{include:argument_sortType.md}}",
+            "defaultValue": "text"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "sortOrder",
+            "type": "string",
+            "description": "{{include:argument_sortOrder.md}}",
+            "defaultValue": "asc"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "pathToSubElement",
+            "type": "string",
+            "description": "{{include:argument_pathToSubElement.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "array",
+    "status": "implemeted",
+    "name": "structsort",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "sort",
+        "type": "struct"
+    }
+}

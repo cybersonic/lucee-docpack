@@ -1,0 +1,23 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "webservice"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "webservice",
+            "type": "any",
+            "description": "{{include:argument_webservice.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "getsoapresponse",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

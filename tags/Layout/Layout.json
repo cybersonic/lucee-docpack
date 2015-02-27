@@ -1,0 +1,98 @@
+{
+    "bodyType": "free",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "none",
+        "rtexpr": false
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "Layout",
+    "type": "cfml",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "tabheight": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_tabheight.md}}"
+        },
+        "style": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_style.md}}"
+        },
+        "tabsadd": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_tabsadd.md}}"
+        },
+        "tabsload": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_tabsload.md}}"
+        },
+        "tabsremove": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_tabsremove.md}}"
+        },
+        "tabsdisable": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_tabsdisable.md}}"
+        },
+        "name": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_name.md}}"
+        },
+        "type": {
+            "required": true,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_type.md}}"
+        },
+        "jslib": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_jslib.md}}"
+        },
+        "tabsenable": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_tabsenable.md}}"
+        },
+        "tabsselect": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_tabsselect.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

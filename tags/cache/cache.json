@@ -1,0 +1,158 @@
+{
+    "bodyType": "free",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "cache",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "metadata": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_metadata.md}}"
+        },
+        "cachedirectory": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cachedirectory.md}}"
+        },
+        "throwonerror": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_throwonerror.md}}"
+        },
+        "timespan": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "timespan",
+            "description": "{{include:attribute_timespan.md}}"
+        },
+        "directory": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_directory.md}}"
+        },
+        "idletime": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "timespan",
+            "description": "{{include:attribute_idletime.md}}"
+        },
+        "cachename": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cachename.md}}"
+        },
+        "password": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_password.md}}"
+        },
+        "protocol": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_protocol.md}}"
+        },
+        "name": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_name.md}}"
+        },
+        "id": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_id.md}}"
+        },
+        "key": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_key.md}}"
+        },
+        "port": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_port.md}}"
+        },
+        "timeout": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_timeout.md}}"
+        },
+        "value": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_value.md}}"
+        },
+        "action": {
+            "required": false,
+            "values": [
+                "cache",
+                "flush",
+                "clientcache",
+                "servercache",
+                "optimal",
+                "content",
+                "put",
+                "get"
+            ],
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_action.md}}",
+            "defaultValue": "cache"
+        },
+        "expireurl": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_expireurl.md}}"
+        },
+        "username": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_username.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

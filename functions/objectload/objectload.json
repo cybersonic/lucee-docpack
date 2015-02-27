@@ -1,0 +1,20 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "input",
+            "type": "any",
+            "description": "{{include:argument_input.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 0,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "objectload",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

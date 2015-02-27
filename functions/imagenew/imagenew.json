@@ -1,0 +1,55 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "source",
+            "type": "any",
+            "description": "{{include:argument_source.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "width",
+            "type": "string",
+            "description": "{{include:argument_width.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "height",
+            "type": "string",
+            "description": "{{include:argument_height.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "imageType",
+            "type": "string",
+            "description": "{{include:argument_imageType.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "canvasColor",
+            "type": "string",
+            "description": "{{include:argument_canvasColor.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 0,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "imagenew",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

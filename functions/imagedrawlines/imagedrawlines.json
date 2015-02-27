@@ -1,0 +1,55 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "xcoords",
+            "type": "array",
+            "description": "{{include:argument_xcoords.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "ycoords",
+            "type": "array",
+            "description": "{{include:argument_ycoords.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "isPolygon",
+            "type": "boolean",
+            "description": "{{include:argument_isPolygon.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "filled",
+            "type": "boolean",
+            "description": "{{include:argument_filled.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imagedrawlines",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

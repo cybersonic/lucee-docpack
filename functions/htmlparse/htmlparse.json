@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "HTML"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "html",
+            "type": "string",
+            "description": "{{include:argument_html.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "caseSensitive",
+            "type": "boolean",
+            "description": "{{include:argument_caseSensitive.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "xml",
+    "status": "implemeted",
+    "name": "htmlparse",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

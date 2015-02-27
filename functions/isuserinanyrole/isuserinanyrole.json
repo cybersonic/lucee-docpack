@@ -1,0 +1,23 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "decision"
+    ],
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "role_list",
+            "type": "string",
+            "description": "{{include:argument_role_list.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 0,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "isuserinanyrole",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

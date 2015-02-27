@@ -1,0 +1,24 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "decision",
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "path",
+            "type": "string",
+            "description": "{{include:argument_path.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "isimagefile",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

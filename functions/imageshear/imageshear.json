@@ -1,0 +1,47 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "shear",
+            "type": "number",
+            "description": "{{include:argument_shear.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "direction",
+            "type": "string",
+            "description": "{{include:argument_direction.md}}",
+            "defaultValue": "horizontal"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "interpolation",
+            "type": "string",
+            "description": "{{include:argument_interpolation.md}}",
+            "defaultValue": "nearest"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imageshear",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

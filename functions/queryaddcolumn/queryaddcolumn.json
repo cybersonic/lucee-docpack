@@ -1,0 +1,53 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "query"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "query",
+            "type": "query",
+            "description": "{{include:argument_query.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "column",
+            "type": "string",
+            "description": "{{include:argument_column.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "datatype_or_array",
+            "type": "any",
+            "description": "{{include:argument_datatype_or_array.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "array",
+            "type": "any",
+            "description": "{{include:argument_array.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "queryaddcolumn",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "addColumn",
+        "type": "query"
+    }
+}

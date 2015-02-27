@@ -1,0 +1,44 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "path",
+            "type": "string",
+            "description": "{{include:argument_path.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "mode",
+            "type": "string",
+            "description": "{{include:argument_mode.md}}",
+            "defaultValue": "read"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "charset",
+            "type": "string",
+            "description": "{{include:argument_charset.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "seekable",
+            "type": "boolean",
+            "description": "{{include:argument_seekable.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "fileopen",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

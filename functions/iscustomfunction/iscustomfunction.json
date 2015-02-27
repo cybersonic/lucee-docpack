@@ -1,0 +1,24 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "decision",
+        "function"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "iscustomfunction",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

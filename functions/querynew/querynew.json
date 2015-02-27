@@ -1,0 +1,39 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "query"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "columnNames",
+            "type": "object",
+            "description": "{{include:argument_columnNames.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "columnTypes",
+            "type": "object",
+            "description": "{{include:argument_columnTypes.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "data",
+            "type": "any",
+            "description": "{{include:argument_data.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "query",
+    "status": "implemeted",
+    "name": "querynew",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

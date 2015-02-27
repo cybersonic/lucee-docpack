@@ -1,0 +1,37 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string1",
+            "type": "string",
+            "description": "{{include:argument_string1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string2",
+            "type": "string",
+            "description": "{{include:argument_string2.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "compare",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "compare",
+        "type": "string"
+    }
+}

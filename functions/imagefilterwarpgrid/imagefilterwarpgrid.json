@@ -1,0 +1,47 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "rows",
+            "type": "number",
+            "description": "{{include:argument_rows.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "cols",
+            "type": "number",
+            "description": "{{include:argument_cols.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "width",
+            "type": "number",
+            "description": "{{include:argument_width.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "height",
+            "type": "number",
+            "description": "{{include:argument_height.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 4,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "imagefilterwarpgrid",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

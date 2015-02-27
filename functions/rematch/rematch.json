@@ -1,0 +1,38 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string",
+        "regex"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "regex",
+            "type": "string",
+            "description": "{{include:argument_regex.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "array",
+    "status": "implemeted",
+    "name": "rematch",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 2,
+        "chaining": false,
+        "name": "REMatch",
+        "type": "string"
+    }
+}

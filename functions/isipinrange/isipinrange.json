@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "decision"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "ips",
+            "type": "any",
+            "description": "{{include:argument_ips.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "ip",
+            "type": "string",
+            "description": "{{include:argument_ip.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "isipinrange",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

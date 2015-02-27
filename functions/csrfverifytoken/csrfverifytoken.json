@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "token",
+            "type": "string",
+            "description": "{{include:argument_token.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "key",
+            "type": "string",
+            "description": "{{include:argument_key.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "csrfverifytoken",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

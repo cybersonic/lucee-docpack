@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "binary"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "encoded_binary",
+            "type": "string",
+            "description": "{{include:argument_encoded_binary.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "binaryencoding",
+            "type": "string",
+            "description": "{{include:argument_binaryencoding.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "binary",
+    "status": "implemeted",
+    "name": "binarydecode",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "object",
+            "type": "any",
+            "description": "{{include:argument_object.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "deepcopy",
+            "type": "boolean",
+            "description": "{{include:argument_deepcopy.md}}",
+            "defaultValue": "true"
+        }
+    ],
+    "argMin": 1,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "duplicate",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

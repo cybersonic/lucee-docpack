@@ -1,0 +1,44 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "year",
+            "type": "number",
+            "description": "{{include:argument_year.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "month",
+            "type": "number",
+            "description": "{{include:argument_month.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "day",
+            "type": "number",
+            "description": "{{include:argument_day.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "timezone",
+            "type": "string",
+            "description": "{{include:argument_timezone.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "datetime",
+    "status": "implemeted",
+    "name": "createdate",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

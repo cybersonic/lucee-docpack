@@ -1,0 +1,41 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "number",
+        "string",
+        "formatting"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "number",
+            "type": "any",
+            "description": "{{include:argument_number.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "mask",
+            "type": "string",
+            "description": "{{include:argument_mask.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "locale",
+            "type": "string",
+            "description": "{{include:argument_locale.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "lsnumberformat",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

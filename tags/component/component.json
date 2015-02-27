@@ -1,0 +1,127 @@
+{
+    "bodyType": "required",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "multiple",
+        "rtexpr": false
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "component",
+    "type": "java",
+    "attributeCollection": false,
+    "attributeType": "mixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "alias": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_alias.md}}"
+        },
+        "bindingname": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_bindingname.md}}"
+        },
+        "hint": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_hint.md}}"
+        },
+        "wsdlfile": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_wsdlfile.md}}"
+        },
+        "mappedsuperclass": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_mappedsuperclass.md}}"
+        },
+        "style": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_style.md}}"
+        },
+        "output": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_output.md}}"
+        },
+        "serviceaddress": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_serviceaddress.md}}"
+        },
+        "serviceportname": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_serviceportname.md}}"
+        },
+        "displayname": {
+            "required": false,
+            "alias": "display",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_displayname.md}}"
+        },
+        "synchronized": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_synchronized.md}}"
+        },
+        "extends": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_extends.md}}"
+        },
+        "persistent": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_persistent.md}}"
+        },
+        "porttypename": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_porttypename.md}}"
+        },
+        "namespace": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_namespace.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

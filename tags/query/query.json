@@ -1,0 +1,196 @@
+{
+    "bodyType": "required",
+    "attrMax": 0,
+    "parseBody": true,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "query",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "provider": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_provider.md}}"
+        },
+        "connectstring": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_connectstring.md}}"
+        },
+        "unique": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_unique.md}}"
+        },
+        "cachedafter": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "datetime",
+            "description": "{{include:attribute_cachedafter.md}}"
+        },
+        "dbtype": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_dbtype.md}}"
+        },
+        "returntype": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_returntype.md}}"
+        },
+        "params": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_params.md}}"
+        },
+        "providerdsn": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_providerdsn.md}}"
+        },
+        "dbserver": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_dbserver.md}}"
+        },
+        "psq": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_psq.md}}"
+        },
+        "cachename": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cachename.md}}"
+        },
+        "dbname": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_dbname.md}}"
+        },
+        "password": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_password.md}}"
+        },
+        "maxrows": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_maxrows.md}}"
+        },
+        "name": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_name.md}}"
+        },
+        "timeout": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_timeout.md}}"
+        },
+        "debug": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_debug.md}}"
+        },
+        "datasource": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_datasource.md}}"
+        },
+        "timezone": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_timezone.md}}"
+        },
+        "ormoptions": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "struct",
+            "description": "{{include:attribute_ormoptions.md}}"
+        },
+        "blockfactor": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_blockfactor.md}}"
+        },
+        "username": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_username.md}}"
+        },
+        "result": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_result.md}}"
+        },
+        "lazy": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_lazy.md}}"
+        },
+        "cachedwithin": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_cachedwithin.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

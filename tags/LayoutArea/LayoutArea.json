@@ -1,0 +1,84 @@
+{
+    "bodyType": "free",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "none",
+        "rtexpr": false
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "LayoutArea",
+    "type": "cfml",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "selected": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "Boolean",
+            "description": "{{include:attribute_selected.md}}"
+        },
+        "source": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_source.md}}"
+        },
+        "refreshonactivate": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "Boolean",
+            "description": "{{include:attribute_refreshonactivate.md}}"
+        },
+        "onbinderror": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_onbinderror.md}}"
+        },
+        "style": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_style.md}}"
+        },
+        "disabled": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "Boolean",
+            "description": "{{include:attribute_disabled.md}}"
+        },
+        "name": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_name.md}}"
+        },
+        "title": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_title.md}}"
+        },
+        "overflow": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_overflow.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

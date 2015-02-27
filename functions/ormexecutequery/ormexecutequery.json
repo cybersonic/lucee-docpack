@@ -1,0 +1,44 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "hql",
+            "type": "string",
+            "description": "{{include:argument_hql.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "paramsOrUnique",
+            "type": "any",
+            "description": "{{include:argument_paramsOrUnique.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "uniqueOrQueryOptions",
+            "type": "any",
+            "description": "{{include:argument_uniqueOrQueryOptions.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "queryOptions",
+            "type": "any",
+            "description": "{{include:argument_queryOptions.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "ormexecutequery",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

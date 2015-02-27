@@ -1,0 +1,39 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "XML"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "xmlObj",
+            "type": "xml",
+            "description": "{{include:argument_xmlObj.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "namespace_or_childName",
+            "type": "string",
+            "description": "{{include:argument_namespace_or_childName.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "childName",
+            "type": "string",
+            "description": "{{include:argument_childName.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "org.w3c.dom.Element",
+    "status": "implemeted",
+    "name": "xmlelemnew",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

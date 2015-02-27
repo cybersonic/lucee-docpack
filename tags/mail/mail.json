@@ -1,0 +1,248 @@
+{
+    "bodyType": "required",
+    "attrMax": 0,
+    "parseBody": true,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "mail",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "query": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_query.md}}"
+        },
+        "charset": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_charset.md}}"
+        },
+        "mimeattach": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_mimeattach.md}}"
+        },
+        "server": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_server.md}}"
+        },
+        "proxyuser": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_proxyuser.md}}"
+        },
+        "async": {
+            "required": false,
+            "alias": "spoolenable",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_async.md}}"
+        },
+        "startrow": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_startrow.md}}"
+        },
+        "password": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_password.md}}"
+        },
+        "maxrows": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_maxrows.md}}"
+        },
+        "sendtime": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "datetime",
+            "description": "{{include:attribute_sendtime.md}}"
+        },
+        "from": {
+            "required": true,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_from.md}}"
+        },
+        "timeout": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_timeout.md}}"
+        },
+        "username": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_username.md}}"
+        },
+        "proxyport": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_proxyport.md}}"
+        },
+        "usetls": {
+            "required": false,
+            "alias": "tls,starttls",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_usetls.md}}"
+        },
+        "proxypassword": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_proxypassword.md}}"
+        },
+        "remove": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_remove.md}}"
+        },
+        "wraptext": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_wraptext.md}}"
+        },
+        "subject": {
+            "required": true,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_subject.md}}"
+        },
+        "failto": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_failto.md}}"
+        },
+        "to": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_to.md}}"
+        },
+        "mailerid": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_mailerid.md}}"
+        },
+        "proxyserver": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_proxyserver.md}}"
+        },
+        "priority": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "String",
+            "description": "{{include:attribute_priority.md}}"
+        },
+        "usessl": {
+            "required": false,
+            "alias": "ssl,secure",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_usessl.md}}"
+        },
+        "cc": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_cc.md}}"
+        },
+        "groupcasesensitive": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_groupcasesensitive.md}}"
+        },
+        "type": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_type.md}}"
+        },
+        "port": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_port.md}}"
+        },
+        "replyto": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_replyto.md}}"
+        },
+        "group": {
+            "required": false,
+            "status": "unimplemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_group.md}}"
+        },
+        "bcc": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_bcc.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

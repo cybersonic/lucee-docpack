@@ -1,0 +1,45 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "struct"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "Struct1",
+            "type": "struct",
+            "description": "{{include:argument_Struct1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "Struct2",
+            "type": "struct",
+            "description": "{{include:argument_Struct2.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "OverwriteFlag",
+            "type": "boolean",
+            "description": "{{include:argument_OverwriteFlag.md}}",
+            "defaultValue": "true"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "structappend",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": true,
+        "name": "append",
+        "type": "struct"
+    }
+}

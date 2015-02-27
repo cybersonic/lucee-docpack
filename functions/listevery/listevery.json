@@ -1,0 +1,79 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "list",
+        "string",
+        "iterator"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "list",
+            "type": "string",
+            "description": "{{include:argument_list.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "closure",
+            "type": "function",
+            "description": "{{include:argument_closure.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "delimiter",
+            "type": "string",
+            "description": "{{include:argument_delimiter.md}}",
+            "defaultValue": ","
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "includeEmptyFields",
+            "type": "boolean",
+            "description": "{{include:argument_includeEmptyFields.md}}",
+            "defaultValue": "false"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "multiCharacterDelimiter",
+            "type": "boolean",
+            "description": "{{include:argument_multiCharacterDelimiter.md}}",
+            "defaultValue": "true"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "parallel",
+            "type": "boolean",
+            "description": "{{include:argument_parallel.md}}",
+            "defaultValue": "false"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "maxThreads",
+            "type": "number",
+            "description": "{{include:argument_maxThreads.md}}",
+            "defaultValue": "20"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "listevery",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "listEvery",
+        "type": "string"
+    }
+}

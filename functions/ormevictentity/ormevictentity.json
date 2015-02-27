@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "entityName",
+            "type": "String",
+            "description": "{{include:argument_entityName.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "primaryKey",
+            "type": "String",
+            "description": "{{include:argument_primaryKey.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "ormevictentity",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

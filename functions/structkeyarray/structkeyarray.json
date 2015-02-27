@@ -1,0 +1,29 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "struct"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "structure",
+            "type": "struct",
+            "description": "{{include:argument_structure.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "array",
+    "status": "implemeted",
+    "name": "structkeyarray",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "keyArray",
+        "type": "struct"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": true,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "objectcache",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "filter": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_filter.md}}"
+        },
+        "type": {
+            "required": false,
+            "values": [
+                "function",
+                "include",
+                "object",
+                "query",
+                "resource",
+                "template"
+            ],
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_type.md}}",
+            "defaultValue": "query"
+        },
+        "action": {
+            "required": false,
+            "values": [
+                "clear",
+                "size"
+            ],
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_action.md}}",
+            "defaultValue": "clear"
+        },
+        "result": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_result.md}}"
+        },
+        "filterignorecase": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_filterignorecase.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

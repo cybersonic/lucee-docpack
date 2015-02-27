@@ -1,0 +1,38 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string",
+        "regex"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "reg_expression",
+            "type": "string",
+            "description": "{{include:argument_reg_expression.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "array",
+    "status": "implemeted",
+    "name": "rematchnocase",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 2,
+        "chaining": false,
+        "name": "REMatchNoCase",
+        "type": "string"
+    }
+}

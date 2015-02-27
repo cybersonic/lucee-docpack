@@ -1,0 +1,33 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "currency",
+        "string",
+        "formatting"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "locale",
+            "type": "string",
+            "description": "{{include:argument_locale.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "lsiscurrency",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

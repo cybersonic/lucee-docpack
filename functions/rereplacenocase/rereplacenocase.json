@@ -1,0 +1,54 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string",
+        "regex"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "reg_expression",
+            "type": "string",
+            "description": "{{include:argument_reg_expression.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "substring",
+            "type": "string",
+            "description": "{{include:argument_substring.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "scope",
+            "type": "string",
+            "description": "{{include:argument_scope.md}}",
+            "defaultValue": "one"
+        }
+    ],
+    "argMin": 3,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "rereplacenocase",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "rEReplaceNoCase",
+        "type": "string"
+    }
+}

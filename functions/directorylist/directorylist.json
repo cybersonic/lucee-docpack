@@ -1,0 +1,52 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "path",
+            "type": "string",
+            "description": "{{include:argument_path.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "recurse",
+            "type": "boolean",
+            "description": "{{include:argument_recurse.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "listInfo",
+            "type": "string",
+            "description": "{{include:argument_listInfo.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "filter",
+            "type": "any",
+            "description": "{{include:argument_filter.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "sort",
+            "type": "string",
+            "description": "{{include:argument_sort.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "directorylist",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

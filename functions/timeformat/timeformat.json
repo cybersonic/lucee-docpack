@@ -1,0 +1,41 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "date",
+        "string",
+        "formatting"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "time",
+            "type": "any",
+            "description": "{{include:argument_time.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "mask",
+            "type": "string",
+            "description": "{{include:argument_mask.md}}",
+            "defaultValue": "hh:mm tt"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "timezone",
+            "type": "string",
+            "description": "{{include:argument_timezone.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "timeformat",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

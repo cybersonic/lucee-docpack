@@ -1,0 +1,47 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "destination",
+            "type": "string",
+            "description": "{{include:argument_destination.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "format",
+            "type": "string",
+            "description": "{{include:argument_format.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "inHTMLFormat",
+            "type": "boolean",
+            "description": "{{include:argument_inHTMLFormat.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "imagewritebase64",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

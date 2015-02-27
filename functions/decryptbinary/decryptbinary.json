@@ -1,0 +1,55 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "binary"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "input",
+            "type": "any",
+            "description": "{{include:argument_input.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "key",
+            "type": "string",
+            "description": "{{include:argument_key.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "algorithm",
+            "type": "string",
+            "description": "{{include:argument_algorithm.md}}",
+            "defaultValue": "cfmx_compat"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "IVorSalt",
+            "type": "any",
+            "description": "{{include:argument_IVorSalt.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "iterations",
+            "type": "number",
+            "description": "{{include:argument_iterations.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "decryptbinary",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

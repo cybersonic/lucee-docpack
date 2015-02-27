@@ -1,0 +1,32 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "decision",
+        "array"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "value",
+            "type": "any",
+            "description": "{{include:argument_value.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "dimension",
+            "type": "number",
+            "description": "{{include:argument_dimension.md}}",
+            "defaultValue": "-999"
+        }
+    ],
+    "argMin": 1,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "isarray",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

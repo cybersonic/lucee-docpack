@@ -1,0 +1,39 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "shx",
+            "type": "number",
+            "description": "{{include:argument_shx.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "shy",
+            "type": "number",
+            "description": "{{include:argument_shy.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imagesheardrawingaxis",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

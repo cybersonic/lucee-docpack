@@ -1,0 +1,40 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image",
+        "filter"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "filtername",
+            "type": "string",
+            "description": "{{include:argument_filtername.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "parameters",
+            "type": "struct",
+            "description": "{{include:argument_parameters.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imagefilter",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

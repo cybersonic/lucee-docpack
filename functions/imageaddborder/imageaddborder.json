@@ -1,0 +1,47 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "thickness",
+            "type": "number",
+            "description": "{{include:argument_thickness.md}}",
+            "defaultValue": "1"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "color",
+            "type": "string",
+            "description": "{{include:argument_color.md}}",
+            "defaultValue": "black"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "borderType",
+            "type": "string",
+            "description": "{{include:argument_borderType.md}}",
+            "defaultValue": "constant"
+        }
+    ],
+    "argMin": 1,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imageaddborder",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

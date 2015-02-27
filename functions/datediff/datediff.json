@@ -1,0 +1,42 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "datepart",
+            "type": "string",
+            "description": "{{include:argument_datepart.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "date1",
+            "type": "datetime",
+            "description": "{{include:argument_date1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "date2",
+            "type": "datetime",
+            "description": "{{include:argument_date2.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "datediff",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 2,
+        "chaining": false,
+        "name": "diff",
+        "type": "datetime"
+    }
+}

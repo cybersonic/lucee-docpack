@@ -1,0 +1,52 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "days",
+            "type": "number",
+            "description": "{{include:argument_days.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "hours",
+            "type": "number",
+            "description": "{{include:argument_hours.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "minutes",
+            "type": "number",
+            "description": "{{include:argument_minutes.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "seconds",
+            "type": "number",
+            "description": "{{include:argument_seconds.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "milliseconds",
+            "type": "number",
+            "description": "{{include:argument_milliseconds.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 4,
+    "returnType": "timespan",
+    "status": "implemeted",
+    "name": "createtimespan",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

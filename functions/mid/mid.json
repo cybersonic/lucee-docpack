@@ -1,0 +1,45 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "start",
+            "type": "number",
+            "description": "{{include:argument_start.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "count",
+            "type": "number",
+            "description": "{{include:argument_count.md}}",
+            "defaultValue": "-1"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "mid",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "mid",
+        "type": "string"
+    }
+}

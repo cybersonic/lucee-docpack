@@ -1,0 +1,24 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string",
+        "formatting"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "url",
+            "type": "string",
+            "description": "{{include:argument_url.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "urlsessionformat",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

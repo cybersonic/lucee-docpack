@@ -1,0 +1,43 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "singletype": "required",
+        "type": "single",
+        "rtexpr": false
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "import",
+    "type": "java",
+    "attributeCollection": false,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "prefix": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_prefix.md}}"
+        },
+        "path": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "required",
+            "type": "string",
+            "description": "{{include:attribute_path.md}}"
+        },
+        "taglib": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_taglib.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

@@ -1,0 +1,45 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "query"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "query",
+            "type": "query",
+            "description": "{{include:argument_query.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "column_name",
+            "type": "string",
+            "description": "{{include:argument_column_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "row_number",
+            "type": "number",
+            "description": "{{include:argument_row_number.md}}",
+            "defaultValue": "-9999"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "querygetcell",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "getCell",
+        "type": "query"
+    }
+}

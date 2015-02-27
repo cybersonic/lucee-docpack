@@ -1,0 +1,52 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": false,
+    "status": "deprecated",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "servlet",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "code": {
+            "required": true,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_code.md}}"
+        },
+        "writeoutput": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_writeoutput.md}}"
+        },
+        "timeout": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_timeout.md}}"
+        },
+        "debug": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_debug.md}}"
+        },
+        "jrunproxy": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_jrunproxy.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

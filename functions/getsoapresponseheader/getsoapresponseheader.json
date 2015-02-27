@@ -1,0 +1,47 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "webservice"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "webservice",
+            "type": "any",
+            "description": "{{include:argument_webservice.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "namespace",
+            "type": "string",
+            "description": "{{include:argument_namespace.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "string",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "asXML",
+            "type": "boolean",
+            "description": "{{include:argument_asXML.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "getsoapresponseheader",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

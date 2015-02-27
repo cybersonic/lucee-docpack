@@ -1,0 +1,63 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "list",
+        "string",
+        "sort"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "list",
+            "type": "string",
+            "description": "{{include:argument_list.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "sort_type",
+            "type": "string",
+            "description": "{{include:argument_sort_type.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "sort_order",
+            "type": "string",
+            "description": "{{include:argument_sort_order.md}}",
+            "defaultValue": "asc"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "delimiters",
+            "type": "string",
+            "description": "{{include:argument_delimiters.md}}",
+            "defaultValue": ","
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "includeEmptyFields",
+            "type": "boolean",
+            "description": "{{include:argument_includeEmptyFields.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "listsort",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "listSort",
+        "type": "string"
+    }
+}

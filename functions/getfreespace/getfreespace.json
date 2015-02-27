@@ -1,0 +1,20 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "filepath",
+            "type": "object",
+            "description": "{{include:argument_filepath.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "numeric",
+    "status": "implemeted",
+    "name": "getfreespace",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

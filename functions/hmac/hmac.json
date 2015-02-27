@@ -1,0 +1,44 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "message",
+            "type": "object",
+            "description": "{{include:argument_message.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "key",
+            "type": "object",
+            "description": "{{include:argument_key.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "algorithm",
+            "type": "string",
+            "description": "{{include:argument_algorithm.md}}",
+            "defaultValue": "HmacMD5"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "encoding",
+            "type": "string",
+            "description": "{{include:argument_encoding.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "hmac",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

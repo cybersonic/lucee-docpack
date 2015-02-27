@@ -1,0 +1,23 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "array"
+    ],
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "dimension",
+            "type": "number",
+            "description": "{{include:argument_dimension.md}}",
+            "defaultValue": "1"
+        }
+    ],
+    "argMin": 0,
+    "returnType": "array",
+    "status": "implemeted",
+    "name": "arraynew",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

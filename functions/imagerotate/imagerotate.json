@@ -1,0 +1,55 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "x",
+            "type": "string",
+            "description": "{{include:argument_x.md}}",
+            "defaultValue": "2"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "y",
+            "type": "string",
+            "description": "{{include:argument_y.md}}",
+            "defaultValue": "2"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "angle",
+            "type": "string",
+            "description": "{{include:argument_angle.md}}",
+            "defaultValue": "0"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "interpolation",
+            "type": "string",
+            "description": "{{include:argument_interpolation.md}}",
+            "defaultValue": "nearest"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imagerotate",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

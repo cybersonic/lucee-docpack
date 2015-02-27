@@ -1,0 +1,42 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string",
+        "formatting",
+        "json",
+        "javascript"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "var",
+            "type": "any",
+            "description": "{{include:argument_var.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "serializeQueryByColumns",
+            "type": "boolean",
+            "description": "{{include:argument_serializeQueryByColumns.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "charset",
+            "type": "string",
+            "description": "{{include:argument_charset.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "serializejson",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

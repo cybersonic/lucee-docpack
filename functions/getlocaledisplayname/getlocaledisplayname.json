@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "locale",
+            "type": "string",
+            "description": "{{include:argument_locale.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "dspLocale",
+            "type": "string",
+            "description": "{{include:argument_dspLocale.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 0,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "getlocaledisplayname",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

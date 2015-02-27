@@ -1,0 +1,53 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "substring1",
+            "type": "any",
+            "description": "{{include:argument_substring1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "substring2",
+            "type": "string",
+            "description": "{{include:argument_substring2.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "scope",
+            "type": "string",
+            "description": "{{include:argument_scope.md}}",
+            "defaultValue": "one"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "replace",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "replace",
+        "type": "string"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "source",
+            "type": "string",
+            "description": "{{include:argument_source.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "destination",
+            "type": "string",
+            "description": "{{include:argument_destination.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "recurse",
+            "type": "boolean",
+            "description": "{{include:argument_recurse.md}}",
+            "defaultValue": "false"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "filter",
+            "type": "any",
+            "description": "{{include:argument_filter.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "createPath",
+            "type": "boolean",
+            "description": "{{include:argument_createPath.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "directorycopy",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

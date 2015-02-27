@@ -1,0 +1,57 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "decision",
+        "binary",
+        "array",
+        "boolean",
+        "component",
+        "date",
+        "email",
+        "query",
+        "string",
+        "struct",
+        "regex"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "type",
+            "type": "string",
+            "description": "{{include:argument_type.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "value",
+            "type": "any",
+            "description": "{{include:argument_value.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "min_or_pattern",
+            "type": "any",
+            "description": "{{include:argument_min_or_pattern.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "max",
+            "type": "any",
+            "description": "{{include:argument_max.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "isvalid",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

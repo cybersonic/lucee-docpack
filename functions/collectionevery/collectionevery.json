@@ -1,0 +1,47 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "iterator"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "collection",
+            "type": "object",
+            "description": "{{include:argument_collection.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "closure",
+            "type": "function",
+            "description": "{{include:argument_closure.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "parallel",
+            "type": "boolean",
+            "description": "{{include:argument_parallel.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "maxThreads",
+            "type": "number",
+            "description": "{{include:argument_maxThreads.md}}",
+            "defaultValue": "20"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "collectionevery",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

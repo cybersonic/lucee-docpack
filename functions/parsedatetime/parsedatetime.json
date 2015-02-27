@@ -1,0 +1,41 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "date",
+        "string",
+        "parsing"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "date",
+            "type": "object",
+            "description": "{{include:argument_date.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "popConversion",
+            "type": "string",
+            "description": "{{include:argument_popConversion.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "timezone",
+            "type": "string",
+            "description": "{{include:argument_timezone.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "datetime",
+    "status": "implemeted",
+    "name": "parsedatetime",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

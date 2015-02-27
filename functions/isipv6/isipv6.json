@@ -1,0 +1,23 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "decision"
+    ],
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "hostname",
+            "type": "string",
+            "description": "{{include:argument_hostname.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 0,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "isipv6",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

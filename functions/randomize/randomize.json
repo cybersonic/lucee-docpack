@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "number"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "number",
+            "type": "number",
+            "description": "{{include:argument_number.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "algorithm",
+            "type": "string",
+            "description": "{{include:argument_algorithm.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "randomize",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

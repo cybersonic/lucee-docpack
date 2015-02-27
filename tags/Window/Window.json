@@ -1,0 +1,140 @@
+{
+    "bodyType": "free",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "none",
+        "rtexpr": false
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "Window",
+    "type": "cfml",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "height": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_height.md}}"
+        },
+        "refreshonshow": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_refreshonshow.md}}"
+        },
+        "source": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_source.md}}"
+        },
+        "minwidth": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_minwidth.md}}"
+        },
+        "draggable": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_draggable.md}}"
+        },
+        "y": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_y.md}}"
+        },
+        "onbinderror": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_onbinderror.md}}"
+        },
+        "buttons": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_buttons.md}}"
+        },
+        "width": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_width.md}}"
+        },
+        "x": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_x.md}}"
+        },
+        "resizable": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_resizable.md}}"
+        },
+        "name": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_name.md}}"
+        },
+        "modal": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_modal.md}}"
+        },
+        "initshow": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_initshow.md}}"
+        },
+        "jslib": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_jslib.md}}"
+        },
+        "title": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_title.md}}"
+        },
+        "minheight": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "numeric",
+            "description": "{{include:attribute_minheight.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

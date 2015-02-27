@@ -1,0 +1,55 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "str",
+            "type": "string",
+            "description": "{{include:argument_str.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "x",
+            "type": "number",
+            "description": "{{include:argument_x.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "y",
+            "type": "number",
+            "description": "{{include:argument_y.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "attributeCollection",
+            "type": "struct",
+            "description": "{{include:argument_attributeCollection.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 4,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imagedrawtext",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

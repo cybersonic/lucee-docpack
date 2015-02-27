@@ -1,0 +1,154 @@
+{
+    "bodyType": "free",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "none",
+        "rtexpr": false
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "Dump",
+    "type": "cfml",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "styles": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "struct",
+            "description": "{{include:attribute_styles.md}}"
+        },
+        "show": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_show.md}}"
+        },
+        "export": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_export.md}}"
+        },
+        "hide": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_hide.md}}"
+        },
+        "output": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_output.md}}"
+        },
+        "var": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_var.md}}"
+        },
+        "abort": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_abort.md}}"
+        },
+        "async": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_async.md}}"
+        },
+        "metainfo": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_metainfo.md}}"
+        },
+        "eval": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_eval.md}}"
+        },
+        "top": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_top.md}}"
+        },
+        "expand": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_expand.md}}"
+        },
+        "label": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_label.md}}"
+        },
+        "showudfs": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_showudfs.md}}"
+        },
+        "keys": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "number",
+            "description": "{{include:attribute_keys.md}}"
+        },
+        "format": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_format.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf",
+    "example": {
+        "height": "320px",
+        "defaultEngine": "lucee",
+        "title": "Sample",
+        "code": [
+            "<!--- cfDump tag example --->",
+            "<cfdump",
+            "      var=\"#server.lucee.version#\"",
+            "      label=\"Dump from CFDump Tag\">",
+            "",
+            "<cfscript>",
+            "   // Script alternatives:",
+            "   writeDump( var = \"#dateFormat( now(), 'medium' )#\",",
+            "              label = \"Dump from Script\" );",
+            "",
+            "   // Below is not Adobe CF compatible:",
+            "   dump( var = \"#dateFormat( now(), 'medium' )#\",",
+            "         label = \"Dump from Script\" );",
+            "</cfscript>"
+        ]
+    }
+}

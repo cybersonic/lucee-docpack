@@ -1,0 +1,36 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "input",
+            "type": "string",
+            "description": "{{include:argument_input.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "restrictMultiple",
+            "type": "boolean",
+            "description": "{{include:argument_restrictMultiple.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "restrictMixed",
+            "type": "boolean",
+            "description": "{{include:argument_restrictMixed.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "canonicalize",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

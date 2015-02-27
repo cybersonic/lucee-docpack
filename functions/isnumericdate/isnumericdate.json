@@ -1,0 +1,25 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "decision",
+        "number",
+        "date"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "number",
+            "type": "any",
+            "description": "{{include:argument_number.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "isnumericdate",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "number"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "number",
+            "type": "number",
+            "description": "{{include:argument_number.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "abs",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "example": {
+        "height": "150px",
+        "defaultEngine": "lucee",
+        "codeGist": "a2b43a10500787a3a5fe"
+    }
+}

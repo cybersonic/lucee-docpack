@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "XML"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "xml",
+            "type": "xml",
+            "description": "{{include:argument_xml.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "xpath",
+            "type": "string",
+            "description": "{{include:argument_xpath.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "object",
+    "status": "implemeted",
+    "name": "xmlsearch",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

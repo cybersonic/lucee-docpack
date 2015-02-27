@@ -1,0 +1,45 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "struct"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "structure",
+            "type": "struct",
+            "description": "{{include:argument_structure.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "deepTranslation",
+            "type": "boolean",
+            "description": "{{include:argument_deepTranslation.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "leaveOriginalKey",
+            "type": "boolean",
+            "description": "{{include:argument_leaveOriginalKey.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "structkeytranslate",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "keyTranslate",
+        "type": "struct"
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "struct"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "structure",
+            "type": "struct",
+            "description": "{{include:argument_structure.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "key",
+            "type": "string",
+            "description": "{{include:argument_key.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "value",
+            "type": "any",
+            "description": "{{include:argument_value.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "structupdate",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": true,
+        "name": "update",
+        "type": "struct"
+    }
+}

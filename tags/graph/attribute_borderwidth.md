@@ -1,0 +1,1 @@
+Border thickness, in pixels.

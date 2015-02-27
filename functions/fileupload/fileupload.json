@@ -1,0 +1,68 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "destination",
+            "type": "string",
+            "description": "{{include:argument_destination.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "fileField",
+            "type": "string",
+            "description": "{{include:argument_fileField.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "accept",
+            "type": "string",
+            "description": "{{include:argument_accept.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "nameConflict",
+            "type": "string",
+            "description": "{{include:argument_nameConflict.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "mode",
+            "type": "string",
+            "description": "{{include:argument_mode.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "attributes",
+            "type": "string",
+            "description": "{{include:argument_attributes.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "acl",
+            "type": "object",
+            "description": "{{include:argument_acl.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "struct",
+    "status": "implemeted",
+    "name": "fileupload",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

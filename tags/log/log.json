@@ -1,0 +1,100 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "log",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "date": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_date.md}}"
+        },
+        "charset": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_charset.md}}"
+        },
+        "text": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_text.md}}"
+        },
+        "application": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_application.md}}"
+        },
+        "log": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_log.md}}"
+        },
+        "exception": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_exception.md}}"
+        },
+        "async": {
+            "required": false,
+            "alias": "spoolenable",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_async.md}}"
+        },
+        "time": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_time.md}}"
+        },
+        "file": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_file.md}}"
+        },
+        "type": {
+            "required": false,
+            "alias": "level",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_type.md}}"
+        },
+        "thread": {
+            "required": false,
+            "status": "deprecated",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_thread.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

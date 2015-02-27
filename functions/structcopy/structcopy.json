@@ -1,0 +1,29 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "struct"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "structure",
+            "type": "struct",
+            "description": "{{include:argument_structure.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "object",
+    "status": "implemeted",
+    "name": "structcopy",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "copy",
+        "type": "struct"
+    }
+}

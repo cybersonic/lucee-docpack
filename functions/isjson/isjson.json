@@ -1,0 +1,25 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "decision",
+        "json",
+        "javascript"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "var",
+            "type": "any",
+            "description": "{{include:argument_var.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "isjson",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

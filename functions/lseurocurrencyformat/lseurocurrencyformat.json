@@ -1,0 +1,41 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "currency",
+        "string",
+        "formatting"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "currency_number",
+            "type": "object",
+            "description": "{{include:argument_currency_number.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "type",
+            "type": "string",
+            "description": "{{include:argument_type.md}}",
+            "defaultValue": "local"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "locale",
+            "type": "string",
+            "description": "{{include:argument_locale.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "deprecated",
+    "name": "lseurocurrencyformat",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

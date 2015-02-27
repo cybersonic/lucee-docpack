@@ -1,0 +1,11 @@
+{
+    "argMax": -1,
+    "arguments": [],
+    "argMin": 0,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "getcontextroot",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

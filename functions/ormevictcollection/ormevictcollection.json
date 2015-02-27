@@ -1,0 +1,36 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "entityName",
+            "type": "String",
+            "description": "{{include:argument_entityName.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "collectionName",
+            "type": "String",
+            "description": "{{include:argument_collectionName.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "primaryKey",
+            "type": "String",
+            "description": "{{include:argument_primaryKey.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "ormevictcollection",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

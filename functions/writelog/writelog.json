@@ -1,0 +1,48 @@
+{
+    "argMax": 5,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "text",
+            "type": "string",
+            "description": "{{include:argument_text.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "type",
+            "type": "string",
+            "description": "{{include:argument_type.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "application",
+            "type": "boolean",
+            "description": "{{include:argument_application.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "file",
+            "type": "string",
+            "description": "{{include:argument_file.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "log",
+            "type": "string",
+            "description": "{{include:argument_log.md}}"
+        }
+    ],
+    "argMin": 1,
+    "source": "/Users/markdrew/Downloads/lucee-4.5.1.000-express/lib/ext/lucee-server/context/library/function/writeLog.cfm",
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "writelog",
+    "type": "cfml",
+    "description": "{{include:description.md}}",
+    "argumentType": "fixed"
+}

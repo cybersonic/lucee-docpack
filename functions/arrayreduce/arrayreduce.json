@@ -1,0 +1,46 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "array",
+        "iterator"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "array",
+            "type": "array",
+            "description": "{{include:argument_array.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "closure",
+            "type": "function",
+            "description": "{{include:argument_closure.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "initalValue",
+            "type": "object",
+            "description": "{{include:argument_initalValue.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "arrayreduce",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "reduce",
+        "type": "array"
+    }
+}

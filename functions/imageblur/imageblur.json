@@ -1,0 +1,37 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "image",
+            "type": "image",
+            "description": "{{include:argument_image.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "blurRadius",
+            "type": "number",
+            "description": "{{include:argument_blurRadius.md}}",
+            "defaultValue": "3"
+        }
+    ],
+    "argMin": 1,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imageblur",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "blur",
+        "type": "image"
+    }
+}

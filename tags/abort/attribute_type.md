@@ -1,0 +1,1 @@
+Either "request" (default) or "page". If "request", all request processing will be stopped. If "page", only processing in the current template will be stopped.

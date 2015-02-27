@@ -1,0 +1,71 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "x1",
+            "type": "number",
+            "description": "{{include:argument_x1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "y1",
+            "type": "number",
+            "description": "{{include:argument_y1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "ctrlx",
+            "type": "number",
+            "description": "{{include:argument_ctrlx.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "ctrly",
+            "type": "number",
+            "description": "{{include:argument_ctrly.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "x2",
+            "type": "number",
+            "description": "{{include:argument_x2.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "y2",
+            "type": "number",
+            "description": "{{include:argument_y2.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 7,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imagedrawquadraticcurve",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

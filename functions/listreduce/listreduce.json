@@ -1,0 +1,70 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "array",
+        "iterator"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "list",
+            "type": "string",
+            "description": "{{include:argument_list.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "closure",
+            "type": "function",
+            "description": "{{include:argument_closure.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "initalValue",
+            "type": "object",
+            "description": "{{include:argument_initalValue.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "delimiter",
+            "type": "string",
+            "description": "{{include:argument_delimiter.md}}",
+            "defaultValue": ","
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "includeEmptyFields",
+            "type": "boolean",
+            "description": "{{include:argument_includeEmptyFields.md}}",
+            "defaultValue": "false"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "multiCharacterDelimiter",
+            "type": "boolean",
+            "description": "{{include:argument_multiCharacterDelimiter.md}}",
+            "defaultValue": "true"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "listreduce",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "listReduce",
+        "type": "string"
+    }
+}

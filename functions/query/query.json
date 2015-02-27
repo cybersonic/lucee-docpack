@@ -1,0 +1,14 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "query"
+    ],
+    "arguments": [],
+    "argMin": 0,
+    "returnType": "query",
+    "status": "implemeted",
+    "name": "query",
+    "type": "java",
+    "argumentType": "dynamic",
+    "description": "{{include:description.md}}"
+}

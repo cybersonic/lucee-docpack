@@ -1,0 +1,46 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "string",
+        "find"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "substring",
+            "type": "string",
+            "description": "{{include:argument_substring.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "start",
+            "type": "number",
+            "description": "{{include:argument_start.md}}",
+            "defaultValue": "1"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "find",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 2,
+        "chaining": false,
+        "name": "find",
+        "type": "string"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "argMax": -1,
+    "arguments": [],
+    "argMin": 1,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "evaluate",
+    "type": "java",
+    "argumentType": "dynamic",
+    "description": "{{include:description.md}}"
+}

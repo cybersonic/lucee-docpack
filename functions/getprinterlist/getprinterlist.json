@@ -1,0 +1,20 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "delimiters",
+            "type": "string",
+            "description": "{{include:argument_delimiters.md}}",
+            "defaultValue": ","
+        }
+    ],
+    "argMin": 0,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "getprinterlist",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

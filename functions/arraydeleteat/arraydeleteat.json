@@ -1,0 +1,37 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "array"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "array",
+            "type": "array",
+            "description": "{{include:argument_array.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "position",
+            "type": "number",
+            "description": "{{include:argument_position.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "arraydeleteat",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "deleteAt",
+        "type": "array"
+    }
+}

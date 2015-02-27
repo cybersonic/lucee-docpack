@@ -1,0 +1,24 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "struct",
+        "iterator"
+    ],
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "type",
+            "type": "string",
+            "description": "{{include:argument_type.md}}",
+            "defaultValue": "normal"
+        }
+    ],
+    "argMin": 0,
+    "returnType": "struct",
+    "status": "implemeted",
+    "name": "structnew",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

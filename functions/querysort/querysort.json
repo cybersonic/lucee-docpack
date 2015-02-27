@@ -1,0 +1,46 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "query",
+        "sort"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "query",
+            "type": "query",
+            "description": "{{include:argument_query.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "column_name",
+            "type": "string",
+            "description": "{{include:argument_column_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "direction",
+            "type": "string",
+            "description": "{{include:argument_direction.md}}",
+            "defaultValue": ""
+        }
+    ],
+    "argMin": 2,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "querysort",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": true,
+        "name": "sort",
+        "type": "query"
+    }
+}

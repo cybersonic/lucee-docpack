@@ -1,0 +1,27 @@
+{
+    "argMax": 2,
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "name",
+            "type": "string",
+            "description": "{{include:argument_name.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "timeout",
+            "type": "numeric",
+            "description": "{{include:argument_timeout.md}}"
+        }
+    ],
+    "argMin": 0,
+    "source": "/Users/markdrew/Downloads/lucee-4.5.1.000-express/lib/ext/lucee-server/context/library/function/threadJoin.cfm",
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "threadjoin",
+    "type": "cfml",
+    "description": "{{include:description.md}}",
+    "argumentType": "fixed"
+}

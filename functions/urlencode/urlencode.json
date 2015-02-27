@@ -1,0 +1,36 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "charset",
+            "type": "string",
+            "description": "{{include:argument_charset.md}}",
+            "defaultValue": "utf-8"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "force",
+            "type": "boolean",
+            "description": "{{include:argument_force.md}}",
+            "defaultValue": "true"
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "urlencode",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

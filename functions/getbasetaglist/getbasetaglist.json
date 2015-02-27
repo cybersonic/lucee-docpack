@@ -1,0 +1,20 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "delimiter",
+            "type": "string",
+            "description": "{{include:argument_delimiter.md}}",
+            "defaultValue": ","
+        }
+    ],
+    "argMin": 0,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "getbasetaglist",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

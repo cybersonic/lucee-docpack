@@ -1,0 +1,31 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "query"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "query_column",
+            "type": "queryColumn",
+            "description": "{{include:argument_query_column.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "delimiter",
+            "type": "string",
+            "description": "{{include:argument_delimiter.md}}",
+            "defaultValue": ","
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "deprecated",
+    "name": "valuelist",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

@@ -1,0 +1,28 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "tagname",
+            "type": "string",
+            "description": "{{include:argument_tagname.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "instancenumber",
+            "type": "number",
+            "description": "{{include:argument_instancenumber.md}}",
+            "defaultValue": "1"
+        }
+    ],
+    "argMin": 1,
+    "returnType": "struct",
+    "status": "implemeted",
+    "name": "getbasetagdata",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

@@ -1,0 +1,46 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "struct",
+        "find"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "Top",
+            "type": "struct",
+            "description": "{{include:argument_Top.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "Key",
+            "type": "string",
+            "description": "{{include:argument_Key.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "Scope",
+            "type": "string",
+            "description": "{{include:argument_Scope.md}}",
+            "defaultValue": "one"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "array",
+    "status": "implemeted",
+    "name": "structfindkey",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "findKey",
+        "type": "struct"
+    }
+}

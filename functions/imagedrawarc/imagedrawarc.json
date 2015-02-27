@@ -1,0 +1,79 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "image"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "name",
+            "type": "any",
+            "description": "{{include:argument_name.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "x",
+            "type": "number",
+            "description": "{{include:argument_x.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "y",
+            "type": "number",
+            "description": "{{include:argument_y.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "width",
+            "type": "number",
+            "description": "{{include:argument_width.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "height",
+            "type": "number",
+            "description": "{{include:argument_height.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "startAngle",
+            "type": "number",
+            "description": "{{include:argument_startAngle.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "arcAngle",
+            "type": "number",
+            "description": "{{include:argument_arcAngle.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "filled",
+            "type": "boolean",
+            "description": "{{include:argument_filled.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 7,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imagedrawarc",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

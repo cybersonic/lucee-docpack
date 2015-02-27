@@ -1,0 +1,104 @@
+{
+    "argMax": 13,
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "var",
+            "type": "object",
+            "description": "{{include:argument_var.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "expand",
+            "type": "boolean",
+            "description": "{{include:argument_expand.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "format",
+            "type": "string",
+            "description": "{{include:argument_format.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "hide",
+            "type": "string",
+            "description": "{{include:argument_hide.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "keys",
+            "type": "numeric",
+            "description": "{{include:argument_keys.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "label",
+            "type": "string",
+            "description": "{{include:argument_label.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "metainfo",
+            "type": "boolean",
+            "description": "{{include:argument_metainfo.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "output",
+            "type": "string",
+            "description": "{{include:argument_output.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "show",
+            "type": "string",
+            "description": "{{include:argument_show.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "showUDFs",
+            "type": "boolean",
+            "description": "{{include:argument_showUDFs.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "top",
+            "type": "numeric",
+            "description": "{{include:argument_top.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "abort",
+            "type": "boolean",
+            "description": "{{include:argument_abort.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "eval",
+            "type": "string",
+            "description": "{{include:argument_eval.md}}"
+        }
+    ],
+    "argMin": 0,
+    "source": "/Users/markdrew/Downloads/lucee-4.5.1.000-express/lib/ext/lucee-server/context/library/function/writeDump.cfm",
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "writedump",
+    "type": "cfml",
+    "description": "{{include:description.md}}",
+    "argumentType": "fixed"
+}

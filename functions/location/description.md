@@ -1,0 +1,1 @@
+Stops execution of the current request and rdirect to a other location.

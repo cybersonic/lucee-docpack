@@ -1,0 +1,29 @@
+{
+    "bodyType": "required",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "singletype": "optional",
+        "type": "single",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "silent",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "bufferoutput": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "optional",
+            "type": "boolean",
+            "description": "{{include:attribute_bufferoutput.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

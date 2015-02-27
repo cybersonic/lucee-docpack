@@ -1,0 +1,379 @@
+{
+    "bodyType": "prohibited",
+    "attrMax": 0,
+    "parseBody": false,
+    "script": {
+        "type": "multiple",
+        "rtexpr": true
+    },
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "application",
+    "type": "java",
+    "attributeCollection": true,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {
+        "sessiontype": {
+            "required": false,
+            "values": [
+                "cfml",
+                "j2ee"
+            ],
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_sessiontype.md}}"
+        },
+        "setclientcookies": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_setclientcookies.md}}"
+        },
+        "webcharset": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "String",
+            "description": "{{include:attribute_webcharset.md}}"
+        },
+        "customtagpaths": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_customtagpaths.md}}"
+        },
+        "requesttimeout": {
+            "required": false,
+            "alias": "timeout",
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "timespan",
+            "description": "{{include:attribute_requesttimeout.md}}"
+        },
+        "securejsonprefix": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_securejsonprefix.md}}"
+        },
+        "sessionmanagement": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_sessionmanagement.md}}"
+        },
+        "setdomaincookies": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_setdomaincookies.md}}"
+        },
+        "cacheresource": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cacheresource.md}}"
+        },
+        "clientcluster": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_clientcluster.md}}"
+        },
+        "scopecascading": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "String",
+            "description": "{{include:attribute_scopecascading.md}}"
+        },
+        "locale": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "String",
+            "description": "{{include:attribute_locale.md}}"
+        },
+        "compression": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_compression.md}}"
+        },
+        "securejson": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_securejson.md}}"
+        },
+        "datasources": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "struct",
+            "description": "{{include:attribute_datasources.md}}"
+        },
+        "name": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_name.md}}"
+        },
+        "clienttimeout": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "timespan",
+            "description": "{{include:attribute_clienttimeout.md}}"
+        },
+        "sessiontimeout": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "timespan",
+            "description": "{{include:attribute_sessiontimeout.md}}"
+        },
+        "defaultdatasource": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_defaultdatasource.md}}"
+        },
+        "cacheobject": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cacheobject.md}}"
+        },
+        "clientstorage": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_clientstorage.md}}"
+        },
+        "cachetemplate": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cachetemplate.md}}"
+        },
+        "datasource": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_datasource.md}}"
+        },
+        "timezone": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "String",
+            "description": "{{include:attribute_timezone.md}}"
+        },
+        "invokeimplicitaccessor": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_invokeimplicitaccessor.md}}"
+        },
+        "clientmanagement": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_clientmanagement.md}}"
+        },
+        "sessioncluster": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_sessioncluster.md}}"
+        },
+        "onmissingtemplate": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "object",
+            "description": "{{include:attribute_onmissingtemplate.md}}"
+        },
+        "cachefunction": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cachefunction.md}}"
+        },
+        "ormsettings": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "struct",
+            "description": "{{include:attribute_ormsettings.md}}"
+        },
+        "mappings": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "struct",
+            "description": "{{include:attribute_mappings.md}}"
+        },
+        "typechecking": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_typechecking.md}}",
+            "defaultValue": "true"
+        },
+        "scriptprotect": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_scriptprotect.md}}"
+        },
+        "localmode": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_localmode.md}}"
+        },
+        "ormenabled": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_ormenabled.md}}"
+        },
+        "s3": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "struct",
+            "description": "{{include:attribute_s3.md}}"
+        },
+        "tag": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "struct",
+            "description": "{{include:attribute_tag.md}}"
+        },
+        "bufferoutput": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_bufferoutput.md}}"
+        },
+        "loginstorage": {
+            "required": false,
+            "values": [
+                "cookie",
+                "session"
+            ],
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_loginstorage.md}}"
+        },
+        "resourcecharset": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "String",
+            "description": "{{include:attribute_resourcecharset.md}}"
+        },
+        "componentpaths": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "any",
+            "description": "{{include:attribute_componentpaths.md}}"
+        },
+        "suppressremotecomponentcontent": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_suppressremotecomponentcontent.md}}"
+        },
+        "cacheinclude": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cacheinclude.md}}"
+        },
+        "cachequery": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_cachequery.md}}"
+        },
+        "wstype": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_wstype.md}}"
+        },
+        "action": {
+            "required": false,
+            "values": [
+                "create",
+                "update"
+            ],
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_action.md}}",
+            "defaultValue": "create"
+        },
+        "applicationtimeout": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "timespan",
+            "description": "{{include:attribute_applicationtimeout.md}}"
+        },
+        "triggerdatamember": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "boolean",
+            "description": "{{include:attribute_triggerdatamember.md}}"
+        },
+        "sessionstorage": {
+            "required": false,
+            "status": "implemeted",
+            "scriptSupport": "none",
+            "type": "string",
+            "description": "{{include:attribute_sessionstorage.md}}"
+        }
+    },
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

@@ -1,0 +1,16 @@
+{
+    "bodyType": "required",
+    "attrMax": 0,
+    "parseBody": false,
+    "status": "implemeted",
+    "attrMin": 0,
+    "hasNameAppendix": false,
+    "name": "try",
+    "type": "java",
+    "attributeCollection": false,
+    "attributeType": "fixed",
+    "nameSpaceSeperator": "",
+    "attributes": {},
+    "description": "{{include:description.md}}",
+    "nameSpace": "cf"
+}

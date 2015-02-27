@@ -1,0 +1,34 @@
+{
+    "argMax": 3,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "url",
+            "type": "string",
+            "description": "{{include:argument_url.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "addToken",
+            "type": "boolean",
+            "description": "{{include:argument_addToken.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "statusCode",
+            "type": "numeric",
+            "description": "{{include:argument_statusCode.md}}"
+        }
+    ],
+    "argMin": 1,
+    "source": "/Users/markdrew/Downloads/lucee-4.5.1.000-express/lib/ext/lucee-server/context/library/function/location.cfm",
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "location",
+    "type": "cfml",
+    "description": "{{include:description.md}}",
+    "argumentType": "fixed"
+}

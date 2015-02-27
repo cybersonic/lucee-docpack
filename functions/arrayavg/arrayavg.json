@@ -1,0 +1,29 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "array"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "array",
+            "type": "array",
+            "description": "{{include:argument_array.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "arrayavg",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "avg",
+        "type": "array"
+    }
+}

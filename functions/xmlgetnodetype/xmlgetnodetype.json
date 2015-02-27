@@ -1,0 +1,23 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "XML"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "xml",
+            "type": "xml",
+            "description": "{{include:argument_xml.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "xmlgetnodetype",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

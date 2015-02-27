@@ -1,0 +1,36 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "path",
+            "type": "string",
+            "description": "{{include:argument_path.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "createPath",
+            "type": "boolean",
+            "description": "{{include:argument_createPath.md}}",
+            "defaultValue": "true"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "ignoreExists",
+            "type": "boolean",
+            "description": "{{include:argument_ignoreExists.md}}",
+            "defaultValue": "false"
+        }
+    ],
+    "argMin": 1,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "directorycreate",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

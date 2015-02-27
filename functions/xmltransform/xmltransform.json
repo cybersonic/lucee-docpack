@@ -1,0 +1,40 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "XML",
+        "string"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "xml",
+            "type": "any",
+            "description": "{{include:argument_xml.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "xsl",
+            "type": "string",
+            "description": "{{include:argument_xsl.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "unimplemeted",
+            "name": "parameters",
+            "type": "struct",
+            "description": "{{include:argument_parameters.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "string",
+    "status": "implemeted",
+    "name": "xmltransform",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

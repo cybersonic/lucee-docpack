@@ -1,0 +1,36 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "condition",
+            "type": "boolean",
+            "description": "{{include:argument_condition.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string_expression1",
+            "type": "string",
+            "description": "{{include:argument_string_expression1.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string_expression2",
+            "type": "string",
+            "description": "{{include:argument_string_expression2.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "iif",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

@@ -1,0 +1,24 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "ESAPI",
+        "HTML"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "string",
+            "type": "string",
+            "description": "{{include:argument_string.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "string",
+    "status": "deprecated",
+    "name": "encodeforhtmlattribute",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

@@ -1,0 +1,54 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "array",
+        "sort"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "array",
+            "type": "array",
+            "description": "{{include:argument_array.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "sorttype_or_closure",
+            "type": "object",
+            "description": "{{include:argument_sorttype_or_closure.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "sort_order",
+            "type": "string",
+            "description": "{{include:argument_sort_order.md}}",
+            "defaultValue": "asc"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "locale_sensitive",
+            "type": "boolean",
+            "description": "{{include:argument_locale_sensitive.md}}",
+            "defaultValue": "false"
+        }
+    ],
+    "argMin": 2,
+    "returnType": "boolean",
+    "status": "implemeted",
+    "name": "arraysort",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": true,
+        "name": "sort",
+        "type": "array"
+    }
+}

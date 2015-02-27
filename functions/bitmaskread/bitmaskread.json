@@ -1,0 +1,40 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "number",
+        "math"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "number",
+            "type": "number",
+            "description": "{{include:argument_number.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "start",
+            "type": "number",
+            "description": "{{include:argument_start.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "length",
+            "type": "number",
+            "description": "{{include:argument_length.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "bitmaskread",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

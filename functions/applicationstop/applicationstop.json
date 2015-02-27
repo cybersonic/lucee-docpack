@@ -1,0 +1,11 @@
+{
+    "argMax": -1,
+    "arguments": [],
+    "argMin": 0,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "applicationstop",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

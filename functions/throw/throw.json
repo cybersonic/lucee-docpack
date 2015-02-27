@@ -1,0 +1,55 @@
+{
+    "argMax": 6,
+    "arguments": [
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "message",
+            "type": "string",
+            "description": "{{include:argument_message.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "type",
+            "type": "string",
+            "description": "{{include:argument_type.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "detail",
+            "type": "string",
+            "description": "{{include:argument_detail.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "errorcode",
+            "type": "string",
+            "description": "{{include:argument_errorcode.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "extendedInfo",
+            "type": "string",
+            "description": "{{include:argument_extendedInfo.md}}"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "object",
+            "type": "any",
+            "description": "{{include:argument_object.md}}"
+        }
+    ],
+    "argMin": 0,
+    "source": "/Users/markdrew/Downloads/lucee-4.5.1.000-express/lib/ext/lucee-server/context/library/function/throw.cfm",
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "throw",
+    "type": "cfml",
+    "description": "{{include:description.md}}",
+    "argumentType": "fixed"
+}

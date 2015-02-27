@@ -1,0 +1,32 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "number",
+        "math"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "number",
+            "type": "number",
+            "description": "{{include:argument_number.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "count",
+            "type": "number",
+            "description": "{{include:argument_count.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 2,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "bitshln",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

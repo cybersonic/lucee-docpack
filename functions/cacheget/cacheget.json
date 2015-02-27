@@ -1,0 +1,36 @@
+{
+    "argMax": -1,
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "id",
+            "type": "string",
+            "description": "{{include:argument_id.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "throwWhenNotExist",
+            "type": "object",
+            "description": "{{include:argument_throwWhenNotExist.md}}",
+            "defaultValue": "false"
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "cacheName",
+            "type": "string",
+            "description": "{{include:argument_cacheName.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "object",
+    "status": "implemeted",
+    "name": "cacheget",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

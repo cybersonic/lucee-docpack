@@ -1,0 +1,39 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "XML"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "xmlString",
+            "type": "string",
+            "description": "{{include:argument_xmlString.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "caseSensitive",
+            "type": "boolean",
+            "description": "{{include:argument_caseSensitive.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": false,
+            "status": "implemeted",
+            "name": "validator",
+            "type": "string",
+            "description": "{{include:argument_validator.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 1,
+    "returnType": "xml",
+    "status": "implemeted",
+    "name": "xmlparse",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

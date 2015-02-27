@@ -1,0 +1,61 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "clearRect"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "image",
+            "type": "image",
+            "description": "{{include:argument_image.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "x",
+            "type": "number",
+            "description": "{{include:argument_x.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "y",
+            "type": "number",
+            "description": "{{include:argument_y.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "width",
+            "type": "number",
+            "description": "{{include:argument_width.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "height",
+            "type": "number",
+            "description": "{{include:argument_height.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 5,
+    "returnType": "void",
+    "status": "implemeted",
+    "name": "imageclearrect",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}",
+    "member": {
+        "position": 1,
+        "chaining": false,
+        "name": "blur",
+        "type": "image"
+    }
+}

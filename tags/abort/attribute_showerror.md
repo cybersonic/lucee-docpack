@@ -1,0 +1,1 @@
+If supplied, a standard Lucee error page will be displayed showing the supplied error message.

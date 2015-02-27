@@ -1,0 +1,11 @@
+{
+    "argMax": -1,
+    "arguments": [],
+    "argMin": 0,
+    "returnType": "any",
+    "status": "implemeted",
+    "name": "gettemplatepath",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}

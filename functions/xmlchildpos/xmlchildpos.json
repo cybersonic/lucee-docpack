@@ -1,0 +1,39 @@
+{
+    "argMax": -1,
+    "keywords": [
+        "XML"
+    ],
+    "arguments": [
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "node",
+            "type": "xml",
+            "description": "{{include:argument_node.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "childName",
+            "type": "string",
+            "description": "{{include:argument_childName.md}}",
+            "defaultValue": null
+        },
+        {
+            "required": true,
+            "status": "implemeted",
+            "name": "index",
+            "type": "number",
+            "description": "{{include:argument_index.md}}",
+            "defaultValue": null
+        }
+    ],
+    "argMin": 3,
+    "returnType": "number",
+    "status": "implemeted",
+    "name": "xmlchildpos",
+    "type": "java",
+    "argumentType": "fixed",
+    "description": "{{include:description.md}}"
+}
